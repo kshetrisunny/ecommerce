@@ -1,0 +1,645 @@
+/*-----------------------------------------------------------------------------------
+  Template Name: Asbab eCommerce HTML5 Template.
+  Description: Asbab is a unique website template designed in HTML with a simple & beautiful look.
+
+-----------------------------------------------------------------------------------*/
+/*
+    font-family: 'Old Standard TT', serif;
+
+    font-family: 'Poppins', sans-serif;
+*/
+
+/* @import url('../../../assets/css/owl.carousel.min.css'); */
+/* @import url('../../../assets/css/owl.theme.default.min.css'); */
+@import url('../../../assets/css/plugins/animate-slider.css');
+@import url('../../../assets/css/plugins/animate.css');
+@import url('../../../assets/css/plugins/animation.css');
+/* @import url('../../../assets/css/shortcode/default.css'); */
+@import url('../../pages/blur.css');
+
+
+
+.slider__bg--1 {
+    background: rgba(0, 0, 0, 0) url("../../../assets/images/slider/bg/1.jpg") no-repeat scroll 0 0 / cover ;
+  }
+  .slider__bg--2 {
+    background: rgba(0, 0, 0, 0) url("../../../assets/images/slider/bg/2.jpg") no-repeat scroll 0 0 / cover ;
+  }
+  
+  
+  /*-----------------------------------------
+    Background variation Content
+  -------------------------------------------*/
+  
+  /*-----------------------------------------
+    Slider One
+  -------------------------------------------*/
+  .slide{
+    height: 100%;
+  }
+  .slider {
+    height: 100vh;
+  }
+  .slider__fixed--height {
+    align-items: center;
+    display: flex;
+    height: 800px;
+  }
+  .slider--one .slide {
+      align-items: center;
+      display: flex;
+  }
+  
+  .slider__inner h2 {
+      color: #000000;
+      font-size: 24px;
+      letter-spacing: 4px;
+      line-height: 19px;
+      text-transform: uppercase;
+  }
+  .slider__inner h1 {
+      color: #030303;
+      font-family: Old Standard TT;
+      font-size: 89px;
+      margin-bottom: 14px;
+      margin-top: 31px;
+      text-transform: uppercase;
+  }
+  .cr__btn a {
+      background: #c43b68 none repeat scroll 0 0;
+      color: #fff;
+      display: inline-block;
+      font-family: Poppins;
+      font-size: 15px;
+      font-weight: 400;
+      height: 50px;
+      line-height: 49px;
+      padding: 0 36px;
+      text-transform: capitalize;
+      transition: all 0.3s ease 0s;
+  }
+  .cr__btn a:hover {
+      background: #313131 none repeat scroll 0 0;
+      color: #fff;
+  }
+  .slide__thumb {
+      text-align: right;
+  }
+  
+  
+  .align-items__center{
+      display: flex;
+      justify-content: center;
+  }
+  
+  /*Slider Style Two*/
+  
+  
+  
+  .slider--two .slide {
+    text-align: center;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  /*----------------------
+    Animation
+  -------------------------*/
+  
+  .slider__activation__wrap{
+      position: relative;
+  }
+  .slider__activation__wrap .owl-nav div {
+      background: #c43b68 none repeat scroll 0 0;
+      border-radius: 100%;
+      color: #fff;
+      font-size: 17px;
+      height: 50px;
+      left: 0;
+      line-height: 53px;
+      opacity: 0;
+      position: absolute;
+      text-align: center;
+      top: 50%;
+      transition: all 0.5s ease 0s;
+      width: 50px;
+      -webkit-transform: translateY(-50%);
+              transform: translateY(-50%);
+  }
+  .slider__activation__wrap .owl-nav div.owl-next {
+      left: auto;
+      right: 0;
+  }
+  .slider__activation__wrap:hover .owl-nav div {
+      opacity: 1;
+  }
+  
+  .owl-item.active .single__slide.animation__style01 h2{
+    -webkit-animation: 800ms ease-in-out 0s normal none 1 running bounceInDown;
+            animation: 800ms ease-in-out 0s normal none 1 running bounceInDown;
+  } 
+  .owl-item.active .single__slide.animation__style01 h1{
+    -webkit-animation: 1000ms ease-in-out 0s normal none 1 running zoomInUp;
+            animation: 1000ms ease-in-out 0s normal none 1 running zoomInUp;
+  } 
+  
+  .owl-item.active .single__slide.animation__style01 .cr__btn{
+    -webkit-animation: 1600ms ease-in-out 0s normal none 1 running bounceInDown;
+            animation: 1600ms ease-in-out 0s normal none 1 running bounceInDown;
+  } 
+  
+  
+  .owl-item.active .single__slide.animation__style01 p{
+    -webkit-animation: 1200ms ease-in-out 0s normal none 1 running zoomInUp;
+            animation: 1200ms ease-in-out 0s normal none 1 running zoomInUp;
+  } 
+  
+  .owl-item.active .single__slide.animation__style01 .slide__thumb{
+      -webkit-animation: 1900ms ease-in-out 0s normal none 1 running bounceInRight;
+              animation: 1900ms ease-in-out 0s normal none 1 running bounceInRight;
+  } 
+  
+  
+  
+  
+  
+  
+  
+  /*---------------------
+    cd-headline
+  ------------------------*/
+  
+  .cd-headline.loading-bar .cd-words-wrapper::after {
+    background: #4c8bf5 none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 3px;
+    left: 0;
+    position: absolute;
+    transition: width 0.3s ease -0.1s;
+    width: 0;
+    z-index: 2;
+  }
+  .cd-headline.loading-bar span {
+    display: inline-block;
+    padding: 0;
+  }
+  .theme-color span.cd-words-wrapper b{
+   color: #4c8bf5;
+  }
+  .cd-headline.loading-bar .cd-words-wrapper::after {
+    background: #4c8bf5 none repeat scroll 0 0;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /* Slider Activation */
+  .slider__activation__wrap .col-md-4 {
+    width: 100% !important;
+  }
+  .arrow-down-long{
+    position: relative;
+  }
+  .arrow-down-long:before {
+      content: "";
+      height: 90px;
+      background: url(../../../assets/images/icons/arrow-down-long.png);
+      width: 15px;
+      display: inline-block;
+      position: absolute;
+      background-repeat: no-repeat;
+  }
+  
+  .slider__activation__wrap--5 .single-slide{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .slider__activation__wrap--5 .single-slide:focus{
+    outline: none;}
+
+
+.pro_cat_area {
+  display: block;
+  /* padding: 60px 0px; */
+  margin-bottom: 40px;
+  /* background-color: #f3f3f3; */
+}
+
+.cat_thumb img {
+  width: 100%;
+  margin-top: 40px;
+
+}
+
+
+/* .pro_cat_area .hover_info ul:hover {
+  color: #c43b68;
+  background-color: white;
+} */
+
+.product_inner {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.product_inner h4 {
+  font-size: 18px;
+}
+
+.pro_prize {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+.pro_prize li {
+  font-family: 'Poppins';
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0 5px;
+}
+
+.pro_prize li.old_prize {
+  color: #888888;
+}
+
+
+.product_inner ul {
+  list-style-type: none;
+}
+
+.good_sale {
+  padding: 140px 0px;
+  background-color: #f3f3f3;
+}
+
+.prize_inner h2 {
+  color: #494949;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 45px;
+  margin-bottom: 30px;
+  padding-right: 10%;
+  
+}
+
+.prize_inner h3 {
+  color: #494949;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 38px;
+}
+
+.rm_btn {
+  background: #c43b68 none repeat scroll 0 0;
+  display: inline-block;
+  font-family: Poppins;
+  font-size: 15px;
+  height: 50px;
+  line-height: 50px;
+  padding: 0 36px;
+  transition: 0.3s;
+}
+
+.prize_thumb img {
+  width: 100%;
+}
+
+/* start of hover content */
+.hover_info {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+.hover_info ul {
+  list-style-type: none;
+}
+
+.pro_action {
+  display: flex;
+  justify-content: center;
+  flex-flow: row;
+}
+
+.pro_action li a {
+  background: #fefefe none repeat scroll 0 0;
+    display: inline-block;
+    height: 50px;
+    line-height: 60px;
+    text-align: center;
+    transition: all 0.4s ease 0s;
+    width: 50px;
+    margin-top: 20px;
+}
+
+.pro_action li {
+  margin: 0px;
+  margin-bottom: 2px;
+}
+
+.pro_action li a i {
+  columns: #313131;
+  font-size: 18px;
+  transition: all 0.4s ease 0s;
+}
+
+.pro_action li a:hover {
+  background: #c43b68 none repeat scroll 0 0;
+}
+
+.pro_action li a:hover i {
+  color: white;
+}
+
+.pro_action li:nth-child(1) {
+  opacity: 0;
+  transition: opacity 300ms linear 0s;
+}
+.pro_action li:nth-child(2) {
+  opacity: 0;
+  transition: opacity 500ms linear 0s;
+}
+.pro_action li:nth-child(3) {
+  opacity: 0;
+  transition: opacity 700ms linear 0s;
+}
+
+.cat:hover .pro_action li:nth-child(1) {
+  -webkit-animation: 300ms ease-in-out 0s normal none 1 running fadeInRight;
+          animation: 300ms ease-in-out 0s normal none 1 running fadeInRight;
+    opacity: 1;
+    transition: opacity 300ms linear 0s;
+}
+
+.cat:hover .pro_action li:nth-child(2) {
+  -webkit-animation: 500ms ease-in-out 0s normal none 1 running fadeInRight;
+          animation: 500ms ease-in-out 0s normal none 1 running fadeInRight;
+    opacity: 1;
+    transition: opacity 500ms linear 0s;
+}
+
+.cat:hover .pro_action li:nth-child(3) {
+  -webkit-animation: 700ms ease-in-out 0s normal none 1 running fadeInRight;
+          animation: 700ms ease-in-out 0s normal none 1 running fadeInRight;
+    opacity: 1;
+    transition: opacity 700ms linear 0s;
+}
+
+.cat {
+  overflow: hidden;
+  position: relative;
+}
+
+/* end of hover content */
+
+
+
+.blog {
+  background-color: #f5f5f5;
+  display: block;
+  padding: 80px 0px;
+}
+
+.test_blog {
+  display: flex;
+}
+
+.test_blog_thumb {
+  min-width: 88px;
+  position: relative;
+}
+
+.best_pro {
+  align-items: center;
+  display: flex;
+  margin-top: 40px;
+}
+
+.best_pro_details h2 {
+  color: #444;
+    font-family: "Old Standard TT",serif;
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 17px;
+    text-transform: capitalize;
+}
+
+.best_pro_details h2 ul li a {
+  margin: 0;
+  padding: 0;
+}
+
+.best_pro_details .rated {
+  display: flex;
+}
+
+.best_pro_details ul {
+  list-style-type: none;
+}
+
+.best_pro_details .rated .old {
+  color: #777777;
+}
+
+.best_pro_details .rated li + li {
+  margin-left: 4px;
+}
+
+.best_pro_details .rated li i {
+  color: #c43b68;
+    font-size: 15px;
+}
+
+.best_pro_details .best_pro_prize {
+  display: flex;
+  margin-top: 13px;
+}
+
+.best_pro_details .best_pro_prize .old_prize {
+  color: #888888;
+  font-weight: 400;
+  padding-right: 10px;
+}
+
+.best_pro_details ul {
+  padding-left: 0px;
+}
+
+
+.best_pro_action {
+  margin-top: 32px;
+}
+
+.best_pro_action .prod_action li a {
+  background-color: #777777 none repeat scroll 0 0;
+  color: #313131;
+  display: inline-block;
+  font-size: 18px;
+  height: 50px;
+  line-height: 53px;
+  text-align: center;
+  transition: all 0.3s ease 0s;
+  width: 50px;
+}
+
+.best_pro_action .prod_action i {
+  font-size: 20px;
+}
+
+.best_pro_action .prod_action {
+  display: flex;
+}
+
+.best_pro_thumb {
+  margin-right: 10px;
+  width: 100%
+  /* min-width: 180px; */
+}
+
+.best_pro_action .pro_action li a:hover {
+  background: #c43b68 none repeat scroll 0 0;
+    color: #fff;
+}
+
+.brand {
+  margin: 70px 0px;
+}
+
+.brand .inner_brand {
+  padding: 100px 0px;
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+}
+
+.brand ul {
+  list-style-type: none;
+}
+
+.brand ul li + li {
+  margin: 0 25px;
+}
+
+.blog_details {
+  padding-top: 34px;
+}
+
+
+.bl_date span {
+  color: #777777;
+  display: inline-block;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  padding-bottom: 7px;
+  position: relative;
+}
+.bl_date span::before {
+  background: #000000 none repeat scroll 0 0;
+  bottom: 0;
+  content: "";
+  height: 3px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+.blog_details h2 {
+  color: #222222;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  margin-top: 22px;
+}
+
+.blog_details h2:hover {
+  color: #c43b68;
+}
+
+.blog_details p {
+  color: #777777;
+  font-size: 17px;
+  margin-bottom: 25px;
+  margin-top: 18px;
+}
+.bl_btn a {
+  color: #c43b68;
+  display: inline-block;
+  font-family: "Poppins",sans-serif;
+  font-size: 15px;
+  transition: all 0.4s ease 0s;
+}
+.bl_btn a i {
+  padding-right: 9px;
+}
+.bl_btn a:hover {
+  color: #222;
+}
+
+.blog_wrap {
+  margin-bottom: 60px;
+}
+
+
+/* toprated area li */
+
+.prod_action {
+  display: flex;
+  justify-content: center;
+  flex-flow: row;
+}
+
+.prod_action li a {
+  background: #fefefe none repeat scroll 0 0;
+    display: inline-block;
+    height: 50px;
+    line-height: 60px;
+    text-align: center;
+    transition: all 0.4s ease 0s;
+    width: 50px;
+    margin-top: 20px;
+}
+
+.prod_action li {
+  margin: 0px;
+  margin-bottom: 2px;
+}
+
+.prod_action li a i {
+  columns: #313131;
+  font-size: 18px;
+  transition: all 0.4s ease 0s;
+}
+
+.prod_action li a:hover {
+  background: #c43b68 none repeat scroll 0 0;
+}
+
+.prod_action li a:hover i {
+  color: white;
+}
+
+.best_pro_details {
+
+}
+
+
+
+
+
+
+

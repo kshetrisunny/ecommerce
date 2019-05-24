@@ -1,0 +1,145 @@
+<app-header></app-header>
+<div class="sub_header">
+  <div class="row">
+    <div class="col-lg-4 col-md-3 col-sm-4 col-xs-12" style="padding: 0px 0px;">
+      <a>
+        <img src="../../../assets/images/blog/blog-img/11.jpg" style="width:100%; height: 250px;">
+      </a>
+    </div>
+    <div class="col-lg-8 col-md-6 col-sm-4 col-xs-12" style="background-color: whitesmoke">
+      <div class="header_inner" style="text-align:center;">
+        <nav class="header-inner" style="display: block;">
+            <a class="header_items">
+              HOME
+            </a>
+            <span class="separator" style="padding:0px 10px;">
+              <i class="fa fa-angle-right"></i>
+            </span>
+            <a class="header_items">
+              CONTACT US
+            </a>
+        </nav>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<section class="contact_page">
+  <div class="container">
+    <div class="row" style="margin-top:90px;">
+      <div class="col-lg-7 col-md-6 col-sm-12 col-xs-12">
+          <agm-map [latitude]="lat" [longitude]="lng">
+              <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
+            </agm-map>
+      </div>
+
+      <div class="col-lg-5 col-md-6 col-sm-12 col-xs-12">
+          <h2 class="title_line_6">contact us</h2>
+          <div class="address">
+            <div class="add_icon">
+              <i class="fa fa-map-marker"></i>
+            </div>
+            <div class="add_details">
+              <h2>our address</h2>
+              <p>Your Address Here</p>
+            </div>
+          </div>
+          <div class="address">
+              <div class="add_icon">
+                <i class="fa fa-envelope"></i>
+              </div>
+              <div class="add_details">
+                <h2>Your Email</h2>
+                <p>abcd@gmail.com</p>
+              </div>
+            </div>
+            <div class="address">
+                <div class="add_icon">
+                  <i class="fa fa-phone"></i>
+                </div>
+                <div class="add_details">
+                  <h2>Phone Number</h2>
+                  <p>111-1111-1111</p>
+                </div>
+              </div>
+      </div>
+
+    </div>
+
+      <div class="row" style="margin-top:90px;">
+          <div class="col-lg-12 col-md-12 col-xs-12">
+            <div class="contact_title">
+              <h2 class="title_line_6">Send a mail</h2>
+            </div>
+          </div>
+          <div class="col-lg-12 col-md-12 col-xs-12">
+            <form action="#">
+              <div class="single_contact">
+                <div class="contact_box name">
+                  <input type="text" name="name" placeholder="Your Name*">
+                  <input type="email" name="email" placeholder="Mail*">
+                </div>
+              </div>
+              <div class="single_contact">
+                <div class="contact_box subject">
+                  <input type="text" name="subject" placeholder="Subject*" style="width:100%; margin-top:25px;">
+                </div>
+              </div>
+              <div class="single_contact">
+                  <div class="contact_box msg">
+                    <textarea name="msg" placeholder="Your Message" style="width:100%; margin-top:25px;"></textarea>
+                  </div>
+                </div>
+                <div class="form_btn" style="margin-top:25px; margin-bottom:50px;">
+                  <button type="submit" class="f_btn" >send message</button> 
+                </div>
+            </form>
+          </div>
+      </div>
+
+  </div>
+</section>
+
+<div class="brand">
+    <div class="row">
+          <div class="col-md-12">
+                <ul class="inner_brand">
+                    <li>
+                        <a>
+                            <img src="../../../assets/images/brand/1.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="../../../assets/images/brand/2.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="../../../assets/images/brand/3.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="../../../assets/images/brand/4.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="../../../assets/images/brand/5.png">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+    </div>
+  </div>
+  
+  <app-footer></app-footer>
+  
+  
+
+
+
+

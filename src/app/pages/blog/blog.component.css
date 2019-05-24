@@ -1,0 +1,118 @@
+.blog_details {
+    padding-top: 34px;
+  }
+  
+  .bl_date span {
+    color: #777777;
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    padding-bottom: 7px;
+    position: relative;
+  }
+
+  .bl_date span::before {
+    background: #000000 none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 3px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+  }
+
+  .blog_details h2 {
+    color: #222222;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    margin-top: 22px;
+  }
+  
+  .blog_details h2:hover {
+    color: #c43b68;
+  }
+  
+  .blog_details p {
+    color: #777777;
+    font-size: 17px;
+    margin-bottom: 25px;
+    margin-top: 18px;
+  }
+
+  .bl_btn a {
+    color: #c43b68;
+    display: inline-block;
+    font-family: "Poppins",sans-serif;
+    font-size: 15px;
+    transition: all 0.4s ease 0s;
+  }
+
+  .bl_btn a i {
+    padding-right: 9px;
+  }
+
+  .bl_btn a:hover {
+    color: #222;
+  }
+  
+  .blog_wrap {
+    margin-bottom: 60px;
+  }
+  
+  .row .col-xs-12 ul {
+    list-style-type: none;
+  }
+
+  .row .col-xs-12 .pagenation {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    flex-wrap: wrap;
+  }
+  .row .col-xs-12 .pagenation li a {
+    background: #f6f6f6 none repeat scroll 0 0;
+    border-radius: 100%;
+    color: #3f3f3f;
+    display: inline-block;
+    font-family: "Poppins",sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    transition: all 0.3s ease 0s;
+    width: 45px;
+  }
+
+  .row .col-xs-12 .pagenation li a:hover {
+      background-color: #c43b68;
+      color:white;
+  }
+
+  
+.sub_header {
+    margin-top: 110px;
+}
+.sub_header_wrap {
+    align-items: center;
+    display: flex;
+    height: 270px;
+}
+
+.header_inner .header_items {
+    color: #494949;
+    font-family: "Poppins",sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.header_inner .header-inner a:hover {
+    color: #c43b68;
+}
+
+.header-inner {
+    margin-top: 110px;
+}
+

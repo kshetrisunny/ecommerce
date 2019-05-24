@@ -1,0 +1,439 @@
+<app-header></app-header>
+<div class="sub_header">
+  <div class="row">
+    <div class="col-lg-4 col-md-3 col-sm-4 col-xs-12" style="padding: 0px 0px;">
+      <a>
+        <img src="../../../assets/images/blog/blog-img/11.jpg" style="width:100%; height: 250px;">
+      </a>
+    </div>
+    <div class="col-lg-8 col-md-6 col-sm-4 col-xs-12" style="background-color: whitesmoke">
+      <div class="header_inner" style="text-align:center;">
+        <nav class="header-inner" style="display: block;">
+            <a class="header_items">
+              HOME
+            </a>
+            <span class="separator" style="padding:0px 10px;">
+              <i class="fa fa-angle-right"></i>
+            </span>
+            <a class="header_items">
+              CHECKOUT
+            </a>
+        </nav>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<section class="checkout">
+  <div class="container">
+    <div class="row" style="margin-top:90px;">
+      <div class="col-md-8">
+        <div class="checkout_inner">
+          <div class="accordion-list">
+            <div class="accordion" id="acc_main">
+              <div class="accordion_title">
+                checkout method
+              </div>
+              <div class="accordion_body " >
+                <div class="accordion_body_form">
+                  <div class="row">
+                    <div class="col-md-7">
+                      <div class="checkout_method">
+                        <form action="#">
+                          <div class="single_checkout_method">
+                            <h2 class="checkout_method_title">
+                              <i class="fa fa-caret-right" style="margin-right:10px;"></i>
+                              CHECKOUT AS A GUEST OR REGISTER
+                            </h2>
+                            <p class="checkout_method_subtitle">
+                                Register with us for future convenience:
+                            </p>
+                            <div class="sinlge_input">
+                              <input type="radio" id="checkout-method-1" name="checkout-method" checked="checked" style="margin-right: 10px;" >
+                              <label for="checkout-method-1">checkout as guest</label>
+                            </div>
+                            <div class="sinlge_input">
+                                <input type="radio" id="checkout-method-2" name="checkout-method" checked="checked" style="margin-right: 10px;" >
+                                <label for="checkout-method-2">Register</label>
+                              </div>
+                          </div>
+
+                          <div class="single_checkout_method" style="margin-top:25px;" >
+                              <h2 class="checkout_method_title">
+                                <i class="fa fa-caret-right" style="margin-right:10px;"></i>
+                                REGISTER AND SAVE TIME
+                              </h2>
+                              <p class="checkout_method_subtitle">
+                                  Register with us for future convenience:
+                              </p>
+                              <div class="sinlge_input">
+                                <input type="radio" id="register-method-1" name="register-method" checked="checked" style="margin-right: 10px;" >
+                                <label for="register-method-1"> Fast and easy check out</label>
+                              </div>
+                              <div class="sinlge_input">
+                                  <input type="radio" id="register-method-2" name="register-method" checked="checked" style="margin-right: 10px;" >
+                                  <label for="register-method-2"> Easy access to your order history and status</label>
+                                </div>
+                            </div>
+                        </form>
+                      </div>
+                    </div>
+                    <div class="col-md-5">
+                      <div class="checkout_method_login">
+                        <form action="#">
+                          <h5 class="checkout_method_title">Login</h5>
+                          <h5 class="checkout_method_title">Already resgistered ?</h5>
+                          <p class="checkout_method_subtitle">Please login below</p>
+                          <div class="single_input" style="margin-bottom:20px;">
+                            <label for="user_mail">Email</label>
+                            <input type="email" id="user_mail">
+                          </div>
+                          <div class="single_input" style="margin-bottom:20px;">
+                            <label for="user_pass">Password</label>
+                            <input type="password" id="user_pass">
+                          </div>
+                          <p class="require">* Required Fields</p>
+                          <a>Forgot Password ?</a>
+                          <div class="dark_btn" style="margin-top:20px;">
+                            <a>login</a>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+              <div class="accordion_title">
+                billing information
+              </div>
+              <div class="accordion_body">
+                <div class="billinfo">
+                  <form action="#">
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="single_input">
+                          <select name="bil_country">
+                            <option value="">Select Your Country</option>
+                            <option value="">INDIA</option>
+                            <option value="">USA</option>
+                            <option value="">UK</option>
+                            <option value="">BRAZIL</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="col-md-6" style="margin-top:20px;" >
+                        <div class="single_input">
+                          <input type="text" name="fname" placeholder="First name">
+                        </div>
+                      </div>
+                      <div class="col-md-6" style="margin-top:20px;" >
+                          <div class="single_input">
+                            <input type="text" name="lname" placeholder="Last name">
+                          </div>
+                        </div>
+                        <div class="col-md-12" style="margin-top:20px;" >
+                            <div class="single_input">
+                              <input type="text" name="Cname" placeholder="Company name">
+                            </div>
+                          </div>
+                          <div class="col-md-12" style="margin-top:20px;" >
+                              <div class="single_input">
+                                <input type="text" name="sname" placeholder="Street Address">
+                              </div>
+                            </div> 
+                            <div class="col-md-12" style="margin-top:20px;" >
+                                <div class="single_input">
+                                  <input type="text" name="aname" placeholder="Apartment/Block/House (optional)">
+                                </div>
+                              </div>
+                              <div class="col-md-6" style="margin-top:20px;" >
+                                  <div class="single_input">
+                                    <input type="text" name="lname" placeholder="City/state">
+                                  </div>
+                                </div>
+                                <div class="col-md-6" style="margin-top:20px;" >
+                                    <div class="single_input">
+                                      <input type="text" name="lname" placeholder="Postal code/zip">
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6" style="margin-top:20px;" >
+                                      <div class="single_input">
+                                        <input type="text" name="lname" placeholder="Email">
+                                      </div>
+                                    </div>
+                                    <div class="col-md-6" style="margin-top:20px;" >
+                                        <div class="single_input">
+                                          <input type="text" name="lname" placeholder="Phone Number">
+                                        </div>
+                                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+              <div class="accordion_title">
+                shipping information
+              </div>
+              <div class="accordion_body">
+                <div class="ship_info">
+                  <h3 class="shipinfo_title">
+                    shipping address
+                  </h3>
+                  <p><b>Address:</b> Bootexperts, Banasree D-Block, Dhaka 1219, Bangladesh</p>
+                  <a class="ship_to_another_trigger">
+                    <i class="fa fa-arrow-right"></i>
+                    ship to another address
+                  </a>
+                  <div class="ship_to_another">
+                    <form action="#">
+                      <div class="row" style="margin-top:20px;">
+                          <div class="col-md-12">
+                              <div class="single_input">
+                                <select name="bil_country">
+                                  <option value="">Select Your Country</option>
+                                  <option value="">INDIA</option>
+                                  <option value="">USA</option>
+                                  <option value="">UK</option>
+                                  <option value="">BRAZIL</option>
+                                </select>
+                              </div>
+                            </div>
+                            <div class="col-md-6" style="margin-top:20px;" >
+                              <div class="single_input">
+                                <input type="text" name="fname" placeholder="First name">
+                              </div>
+                            </div>
+                            <div class="col-md-6" style="margin-top:20px;" >
+                                <div class="single_input">
+                                  <input type="text" name="lname" placeholder="Last name">
+                                </div>
+                              </div>
+                              <div class="col-md-12" style="margin-top:20px;" >
+                                  <div class="single_input">
+                                    <input type="text" name="Cname" placeholder="Company name">
+                                  </div>
+                                </div>
+                                <div class="col-md-12" style="margin-top:20px;" >
+                                    <div class="single_input">
+                                      <input type="text" name="sname" placeholder="Street Address">
+                                    </div>
+                                  </div> 
+                                  <div class="col-md-12" style="margin-top:20px;" >
+                                      <div class="single_input">
+                                        <input type="text" name="aname" placeholder="Apartment/Block/House (optional)">
+                                      </div>
+                                    </div>
+                                    <div class="col-md-6" style="margin-top:20px;" >
+                                        <div class="single_input">
+                                          <input type="text" name="lname" placeholder="City/state">
+                                        </div>
+                                      </div>
+                                      <div class="col-md-6" style="margin-top:20px;" >
+                                          <div class="single_input">
+                                            <input type="text" name="lname" placeholder="Postal code/zip">
+                                          </div>
+                                        </div>
+                                        <div class="col-md-6" style="margin-top:20px;" >
+                                            <div class="single_input">
+                                              <input type="text" name="lname" placeholder="Email">
+                                            </div>
+                                          </div>
+                                          <div class="col-md-6" style="margin-top:20px;" >
+                                              <div class="single_input">
+                                                <input type="text" name="lname" placeholder="Phone Number">
+                                              </div>
+                                            </div>  
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion_title">
+                shipping method
+              </div>
+              <div class="accordion_body">
+                <div class="ship_method">
+                  <form action="#">
+                    <div class="single_input">
+                      <input type="radio" name="ship_method" id="ship_fast" style="margin-right:15px;" >
+                      <label for="ship_fast">Fast shipping</label>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid voluptatum quaerat totam hic suscipit quam repellat debitis ad sed aperiam quisquam quibusdam enim labore, ipsa illo, natus ipsam temporibus officia.</p>
+                    </div>
+                    <div class="single_input">
+                        <input type="radio" name="ship_method" id="ship_normal" style="margin-right:15px;" >
+                        <label for="ship_normal">Normal shipping</label>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid voluptatum quaerat totam hic suscipit quam repellat debitis ad sed aperiam quisquam quibusdam enim labore, ipsa illo, natus ipsam temporibus officia.</p>
+                      </div>
+                  </form>
+                </div>
+              </div>
+
+              <div class="accordion_title">
+                payment information
+              </div>
+              <div class="accordion_body">
+                <div class="payment_info">
+                  <div class="single_method">
+                    <a>
+                      <i class="fa fa-arrow-right" style="margin-right:10px;" ></i>
+                      Check/Money Order
+                    </a>
+                  </div>
+                  <div class="single_method">
+                      <a>
+                        <i class="fa fa-arrow-right" style="margin-right:10px;" ></i>
+                        Credit Card
+                      </a>
+                      <div class="credit_info_trigger">
+                        <form action="#">
+                          <div class="row">
+                            <div class="col-md-12" style="margin-top:20px;" >
+                                <div class="single_input">
+                                  <input type="text" name="fname" placeholder="Name on Card">
+                                </div>
+                              </div>
+                              <div class="col-md-12" style="margin-top:20px;">
+                                  <div class="single_input">
+                                    <select name="credit_info">
+                                      <option value="">Card type</option>
+                                      <option value="">card 1</option>
+                                      <option value="">card 2</option>
+                                      <option value="">card 3</option>
+                                      <option value="">card 4</option>
+                                    </select>
+                                  </div>
+                                </div>
+                              <div class="col-md-12" style="margin-top:20px;" >
+                                  <div class="single_input">
+                                    <input type="text" name="fname" placeholder="Credit Crad number*">
+                                  </div>
+                                </div>
+                                <div class="col-md-12" style="margin-top:20px;">
+                                    <div class="single_input">
+                                      <select name="bil_country">
+                                        <option value="">Select Month</option>
+                                        <option value="">jan</option>
+                                        <option value="">feb</option>
+                                        <option value="">mar</option>
+                                        <option value="">apr</option>
+                                      </select>
+                                    </div>
+                                  </div>
+                                  <div class="col-md-12" style="margin-top:20px;">
+                                      <div class="single_input">
+                                        <select name="bil_country">
+                                          <option value="">Select Year</option>
+                                          <option value="">2001</option>
+                                          <option value="">2002</option>
+                                          <option value="">2003</option>
+                                          <option value="">2004</option>
+                                        </select>
+                                      </div>
+                                    </div>
+                                    <div class="col-md-12" style="margin-top:20px;" >
+                                        <div class="single_input">
+                                          <input type="text" name="fname" placeholder="Card Verification Number">
+                                        </div>
+                                      </div>
+
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="order_details">
+          <h5 class="order_title">Your Order</h5>
+          <div class="order_item">
+            <div class="single_item">
+              <div class="single_thumb">
+                <img src="../../../assets/images/cart/1.png" style="width:100%;" >
+              </div>
+              <div class="single_content" style="margin-left:10px;">
+                <a>office chair </a>
+                <span>$120</span>
+              </div>
+              <div class="single_remove">
+                <i class="fa fa-trash"></i>
+              </div>
+            </div>
+            <div class="single_item">
+                <div class="single_thumb">
+                  <img src="../../../assets/images/cart/2.png" style="width:100%;" >
+                </div>
+                <div class="single_content" style="margin-left:10px;">
+                  <a>office chair </a>
+                  <span>$120</span>
+                </div>
+                <div class="single_remove">
+                  <i class="fa fa-trash"></i>
+                </div>
+              </div>
+              <div class="order_count" style="margin-top:15px;">
+                <div class="order_count_single">
+                  <h5>sub total</h5>
+                  <span class="price">$999</span>
+                </div>
+                <div class="order_count_single">
+                    <h5>tax</h5>
+                    <span class="price">$9</span>
+                  </div>
+                  <div class="order_count_single">
+                      <h5>shipping</h5>
+                      <span class="price">$0</span>
+                    </div>
+              </div>
+          </div>
+          <div class="order_total">
+            <h5>Order Total</h5>
+            <span>$1008</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="brand">
+    <div class="row">
+          <div class="col-md-12">
+                <ul class="inner_brand">
+                    <li>
+                        <a>
+                            <img src="../../../assets/images/brand/1.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="../../../assets/images/brand/2.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="../../../assets/images/brand/3.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="../../../assets/images/brand/4.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="../../../assets/images/brand/5.png">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+    </div>
+  </div>
+  
+  <app-footer></app-footer>

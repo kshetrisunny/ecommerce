@@ -1,0 +1,174 @@
+
+.wishlist_table table {
+    background: #fff none repeat scroll 0 0;
+    border-color: #c1c1c1;
+    border-radius: 0;
+    border-style: solid;
+    border-width: 1px 0px 0px 1px;
+    width: 100%;
+}
+
+.table_resp {
+    overflow-x: auto;
+    min-height: 0.01%;
+}
+
+.wishlist_table table th {
+    border-bottom: 1px solid #c1c1c1;
+    border-right: 1px solid #c1c1c1;
+    color: #000;
+    font-family: Old Standard TT;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 15px 10px;
+    text-align: center
+}
+
+.wishlist_table table td {
+    border-bottom: 1px solid #c1c1c1;
+    border-right: 1px solid #c1c1c1;
+    color: #000;
+    font-family: Old Standard TT;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 15px 10px;
+    text-align: center
+}
+
+.pro_add_cart {
+    width: 240px;
+}
+
+.wishlist_table .pro_image {
+    width: 150px;
+}
+
+
+.wishlist_table table .pro_remove {
+    padding: 0 15px;
+    width: 20px;
+}
+
+.table_resp {
+    overflow-x: auto;
+    min-height: 0.01%;
+}
+
+.wishlist_table table td.pro_prize .amt {
+    font-weight: 700;
+}
+
+.wishlist_table table td.pro_stock .stock {
+    color: #444;
+}
+
+.wishlist_table table td.pro_add_cart a {
+    background: #252525 none repeat scroll 0 0;
+    color: #fff;
+    display: block;
+    font-weight: 700;
+    padding: 10px 56px;
+    text-transform: uppercase;
+    width: 260px;
+}
+
+.wishlist_table table td.pro_add_cart a:hover {
+    background: #c43b68;
+}
+
+
+.wishlist_table table .pro_add_cart {
+    width: 240px;
+}
+
+.wishlist_share {
+    margin-bottom: 35px;
+    margin-top: 20px;
+}
+
+.wishlist_share h4 {
+    font-family: 'Poppins', sans-serif;
+    color: #313131;
+    font-weight: 400;
+    -webkit-font-variant-ligatures: common-ligatures;
+    font-variant-ligatures: common-ligatures;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+.wishlist_share .social_icon ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    list-style-type: none;
+}
+
+.wishlist_share ul li {
+    display: inline-block;
+    height: 21px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.wishlist_share ul li a {
+    background-position: left top;
+    border: medium none;
+    display: inline-block;
+    height: 21px;
+    width: 21px;
+}
+
+.wishlist_share ul {
+    padding-left: 0px;
+}
+
+
+
+
+.brand {
+    margin-top: 70px;
+  }
+  
+  .brand .inner_brand {
+    padding: 100px 0px;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .brand ul {
+    list-style-type: none;
+  }
+  
+  .brand ul li + li {
+    margin: 0 25px;
+  }
+  
+
+  
+.sub_header {
+    margin-top: 110px;
+}
+.sub_header_wrap {
+    align-items: center;
+    display: flex;
+    height: 270px;
+}
+
+.header_inner .header_items {
+    color: #494949;
+    font-family: "Poppins",sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.header_inner .header-inner a:hover {
+    color: #c43b68;
+}
+
+.header-inner {
+    margin-top: 110px;
+}
+

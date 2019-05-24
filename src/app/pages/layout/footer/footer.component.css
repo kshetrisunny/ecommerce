@@ -1,0 +1,22 @@
+@import url('../../../../assets/css/shortcode/footer.css');
+@import url('../../../../assets/css/shortcode/shortcodes.css');
+@import url('../../../../assets/css/shortcode/default.css');
+@import url('../../../core.css');
+
+.fr_btn {
+    background: #c43b68 none repeat scroll 0 0;
+    color: #fff;
+    display: inline-block;
+    font-family: Poppins;
+    font-size: 15px;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 36px;
+    transition: 0.3s;
+}
+
+.send__btn a:hover {
+    background-color: #777777; 
+    color: white;
+}
+

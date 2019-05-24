@@ -1,0 +1,98 @@
+.curr {
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    zoom: 1;
+    *display: inline;
+    width: 20px;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+    font-family: "Lucida Grande",Arial,sans-serif;
+}
+
+.text-wrapper {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d2d2d2 #d2d2d2 #e2e2e2 #e2e2e2;
+    background: #fff url(/images/css/text-field-shadow.png?1550605132) repeat-x scroll left top;
+    padding: 8px;
+    width: 220px;
+}
+
+.card input {
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    zoom: 1;
+    *display: inline;
+    color: grey;
+    font-weight: bold;
+    font-size: 24px;
+    width: 120px;
+    vertical-align: middle;
+}
+
+.card .qty input {
+    height: 40px;
+    margin-left: 5px;
+}
+
+.pro_img {
+    display: flex;
+}
+
+.btn_offer a {
+    display: inline-block;
+    min-width: 120px;
+    height: 45px;
+    color: #fff;
+    border: none;
+    border-radius: 0;
+    padding: 0 7px;
+    font-size: 16px;
+    line-height: 45px;
+    background-color: #c43b68;
+    font-weight: 400;
+    text-align: center;
+}
+
+.btn_offer a:hover {
+background-color: black;
+}
+
+
+.pro_details_content h6 {
+    color: #100d13;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    margin-top: 11px;
+    margin-bottom: 11px;
+}
+
+.pro_details_content h2 {
+    color: #444;
+    font-family: Old Standard TT;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.pro_details_content ul {
+    display: flex;
+    padding-left: 0px;
+    list-style: none;
+}
+
+.pro_details_content ul li + li {
+    margin-left: 5px;
+}
+
+.pro_details_content ul li.old i {
+    color: #777777;
+    font-size: 15px;
+}
+
+

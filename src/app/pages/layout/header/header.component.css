@@ -1,0 +1,280 @@
+/* @import url('../../../core.css'); */
+
+.header {
+    background-color: white;
+    /* background: transparent; */
+}
+
+
+.navbar ul>li {
+    list-style-type: none;
+    display: inline;
+}
+
+.navbar-name a:hover {
+    color: #c43b68;
+}
+
+.navbar-name .navbar-item {
+    padding: 0px 15px;
+}
+
+.header__right {
+    display: flex;
+    justify-content: flex-end;
+    height: 80px;
+    align-items: center;
+    padding-bottom: 25px;
+  }
+
+  .header__search a i {
+    color: #000000;
+    font-size: 19px;
+    position: relative;
+}
+
+.htc__shopping__cart {
+    position: relative;
+}
+.htc__shopping__cart a i {
+    color: #000000;
+    font-size: 19px;
+}
+.htc__shopping__cart a span.htc__qua {
+  background: #c43b68;
+  border-radius: 100%;
+  color: #fff;
+  font-size: 9px;
+  height: 17px;
+  line-height: 19px;
+  position: absolute;
+  right: -5px;
+  text-align: center;
+  top: -4px;
+  width: 17px;
+}
+.header__search a {
+  padding-right: 20px;
+  position: relative;
+  margin-right: 20px;
+}
+.header__search a::before {
+  background: #898989;
+  content: "";
+  height: 15px;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  -webkit-transform: translateY(-70%);
+          transform: translateY(-70%);
+  width: 2px;
+}
+
+.header__account a {
+    color: #000;
+    font-size: 19px;
+    margin-right: 20px;
+    padding-right: 20px;
+    position: relative;
+}
+.header__account a::before {
+    background: #898989 none repeat scroll 0 0;
+    content: "";
+    height: 15px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 2px;
+}
+
+/*-----------------------------
+  Dropdown Menu
+--------------------------------*/
+.main__menu li.drop{
+    position: relative;
+}
+.main__menu li.drop ul.dropdown {
+  background: #ffffff none repeat scroll 0 0;
+  box-shadow: 0 0 0px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.1);
+  left: 0;
+  margin: 0;
+  opacity: 0;
+  padding: 0;
+  position: absolute;
+  top: 120%;
+  transition: all 0.2s ease-in-out 0s;
+  visibility: hidden;
+  width: 220px;
+  z-index: 999;
+}
+.scroll-header .main__menu li.drop ul.dropdown {
+  top: 120%;
+}
+.scroll-header .main__menu li.drop:hover ul.dropdown {
+  top: 100%;
+}
+.main__menu li.drop:hover ul.dropdown {
+    opacity: 1;
+    visibility: visible;
+    top: 100%;
+}
+.main__menu ul.dropdown li {
+    border-bottom: 1px solid #f4f4f4;
+    display: block;
+}
+.main__menu ul.dropdown li a {
+    background: #ffffff none repeat scroll 0 0;
+    color: #333;
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+    text-align: left;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out 0s;
+    padding: 9px 18px;
+    transition: 0.3s;
+    font-family: 'Poppins', sans-serif;
+}
+.main__menu li.drop ul.dropdown li:hover > a {
+    background: #fafafa none repeat scroll 0 0;
+    color: #c43b68;
+}
+.main__menu li.drop ul.dropdown li {
+    margin: 0;
+}
+
+
+.header__search a i {
+  color: #000000;
+  font-size: 19px;
+  position: relative;
+}
+
+.header__search a {
+  padding-right: 20px;
+  position: relative;
+  margin-right: 20px;
+}
+.header__search a::before {
+  background: #898989;
+  content: "";
+  height: 15px;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  -webkit-transform: translateY(-70%);
+          transform: translateY(-70%);
+  width: 2px;
+}
+
+/*-----------------------------------------
+  Header Search area
+-------------------------------------------*/
+.search__area .search__inner form button::before {
+  color: #333;
+  content: "";
+  display: block;
+  font-family: Material-Design-Iconic-Font;
+  font-size: 29px;
+  transition: color 300ms ease 0s;
+}
+.search__area {
+  background: #cfcfcd none repeat scroll 0 0;
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.08);
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  -webkit-transform: translateY(-200%);
+          transform: translateY(-200%);
+  transition: all 300ms ease 0s;
+  z-index: 2147483647;
+}
+.search__area .search__inner{
+  position: relative;
+}
+.search__area .search__inner form {
+  margin: 4em 0;
+  padding: 0 40px 0 0;
+  position: relative;
+  text-align: center;
+}
+.search__area .search__inner form input[type="text"] {
+  background: #fff none repeat scroll 0 0;
+  border: medium none;
+  color: #333;
+  font-size: 25px;
+  font-weight: 300;
+  height: 60px;
+  line-height: 60px;
+  padding: 0 70px 0 20px;
+  text-align: left;
+}
+.search__area .search__inner form input[type="text"]::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #333;
+  font-size: 25px;
+  font-weight: 300;
+}
+.search__area .search__inner form input[type="text"]::-moz-placeholder { /* Firefox 19+ */
+  color: #333;
+  font-size: 25px;
+  font-weight: 300;
+}
+.search__area .search__inner form input[type="text"]:-ms-input-placeholder { /* IE 10+ */
+  color: #333;
+  font-size: 25px;
+  font-weight: 300;
+}
+.search__area .search__inner form input[type="text"]:-moz-placeholder { /* Firefox 18- */
+  color: #333;
+  font-size: 25px;
+  font-weight: 300;
+}
+.search__area .search__inner form button {
+  background: transparent none repeat scroll 0 0;
+  border: 0 none;
+  border-radius: 0;
+  cursor: pointer;
+  height: 60px;
+  line-height: 60px;
+  position: absolute;
+  right: 40px;
+  top: 0;
+  width: 60px;
+  transition: 0.3s;
+}
+.search__area .search__inner form button:hover {
+  background: #c43b68 none repeat scroll 0 0;
+}
+.search__area .search__inner form button:hover::before {
+  color: #fff;
+}
+.search__area .search__inner .search__close__btn {
+  display: block;
+  line-height: 58px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.search__area .search__inner .search__close__btn {
+  color: #fff;
+  cursor: pointer;
+  font-size: 21px;
+  line-height: 58px;
+}
+.search__close__btn .search__close__btn_icon i {
+    transition: all 0.5s ease 0s;
+    -webkit-transform: scale(1) rotate(0deg);
+            transform: scale(1) rotate(0deg);
+}
+.search__close__btn .search__close__btn_icon:hover i {
+    -webkit-transform: scale(2) rotate(180deg);
+            transform: scale(2) rotate(180deg);
+    color: #c43b68;
+}
+.search__box__show__hide .search__area {
+  -webkit-transform: translateY(0px);
+          transform: translateY(0px);
+  transition: all 300ms ease 0s;
+}

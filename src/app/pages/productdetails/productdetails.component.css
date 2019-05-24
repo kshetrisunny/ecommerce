@@ -1,0 +1,557 @@
+/* @import url('../../core.css');  */
+
+.sub_header {
+    margin-top: 110px;
+}
+.sub_header_wrap {
+    align-items: center;
+    display: flex;
+    height: 270px;
+}
+
+.header_inner .header_items {
+    color: #494949;
+    font-family: "Poppins",sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.header_inner .header-inner a:hover {
+    color: #c43b68;
+}
+
+.header-inner {
+    margin-top: 110px;
+}
+
+.pro_small_img {
+    bottom: 35px;
+    display: flex;
+    left: 50%;
+    position: absolute;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.pro_small_img li {
+    border: 1px solid #fff;
+    margin: 0 8px;
+    transition: all 0.4s ease 0s;
+}
+.pro_details_content ul {
+    list-style-type: none;
+}
+
+.tab-content .tab-pane {
+    display: none;
+}
+.fade {
+    opacity: 0;
+    transition: opacity .15s linear;
+}
+
+.pro_details {
+    margin-top: 40px;
+}
+
+.pro_details_img .tab-content .tab-pane img {
+    width: 100%;
+}
+
+.pro_details_content h6 {
+    color: #100d13;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    margin-top: 11px;
+    margin-bottom: 11px;
+}
+
+.pro_details_content h2 {
+    color: #444;
+    font-family: Old Standard TT;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.pro_details_content ul {
+    display: flex;
+    padding-left: 0px;
+}
+
+.pro_details_content ul li + li {
+    margin-left: 5px;
+}
+
+.pro_details_content ul li.old i {
+    color: #777777;
+    font-size: 15px;
+}
+
+.pro_details_content .pro_prize .old_prize {
+    color: #888888;
+    font-weight: 400;
+    padding-right: 12px;
+}
+
+.pro_details_content p {
+    color: #666666;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 12px;
+}
+
+p {
+    font-family: 'Old Standard TT', serif;
+    color: #666666;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.pro_desc {
+    margin-top: 25px;
+}
+
+.sin_desc p {
+    color: #868686;
+    display: inline-block;
+    font-family: 'Old Standard TT', serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+.sin_desc p span {
+    color: #100d13;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.sin_desc_col p span {
+    color: #100d13;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+
+.pro_color li a {
+    background: #000 none repeat scroll 0 0;
+    display: inline-block;
+    height: 20px;
+    text-indent: -999999px;
+    width: 20px;
+}
+
+.pro_color li.red a {
+    background: #003471 none repeat scroll 0 0;
+}
+.pro_color li.green a {
+    background: green none repeat scroll 0 0;
+}
+.pro_color li.blue a {
+    background: orange none repeat scroll 0 0;
+}
+.pro_color li.yellow a {
+    background: yellow none repeat scroll 0 0;
+}
+
+.sin_desc_col {
+    align-items: center;
+    display: flex;
+    margin-top: 21px;
+}
+.pro_color {
+    display: flex;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.pro_more {
+    margin-left: 10px;
+}
+.pro_more a {
+    border: 1px solid #d7d7d7;
+    color: #212121;
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    height: 20px;
+    line-height: 19px;
+    padding: 0 8px;
+    text-transform: uppercase;
+}
+
+.sin_desc_size {
+    align-items: center;
+    display: flex;
+    margin-top: 15px;
+}
+
+.sin_desc_size p {
+    color: #100d13;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.select_size {
+    border: 1px solid #afafaf;
+    color: #afafaf;
+    height: 20px;
+    margin-left: 10px;
+    width: 50px;
+    padding: 0 4px;
+    justify-content: center;
+}
+
+.sin_desc_cat p span {
+    color: #100d13;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+.sin_desc_cat p {
+    color: #868686;
+    display: inline-block;
+    font-family: 'Old Standard TT', serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin: 0
+}
+.sin_desc_pro p span {
+    color: #100d13;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+.sin_desc_pro p {
+    color: #868686;
+    display: inline-block;
+    font-family: 'Old Standard TT', serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin: 0
+}
+
+.pro_cat_list {
+    color: #666666;
+    font-size: 16px;
+    transition: 0.3s;
+    display: flex;
+    margin-left: 10px;
+}
+
+.pro_cat_list li:hover {
+    color: #c43b68;
+}
+
+.sin_desc_share p span {
+    color: #100d13;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+.sin_desc_share p {
+    color: #868686;
+    display: inline-block;
+    font-family: 'Old Standard TT', serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin: 0
+}
+
+.pro_share {
+    display: flex;
+    margin-top: 16px;
+}
+
+.sin_desc_share ul li a {
+        border-radius: 100%;
+        color: #212121;
+        display: inline-block;
+        font-size: 16px;
+        height: 32px;
+        line-height: 36px;
+        text-align: center;
+        transition: all 0.3s ease 0s;
+        width: 32px;
+}
+
+.sin_desc_share ul li a:hover {
+    color: #c43b68;
+}
+
+.pro_tabs {
+    align-items: center;
+    border-color: #e1e1e1;
+    border-style: solid;
+    border-width: 1px;
+    display: flex;
+    margin-bottom: 28px;
+}
+
+.pro_descp .col-xs-12 ul {
+    list-style-type: none;
+}
+
+.pro_tabs li {
+    height: 45px;
+    line-height: 45px;
+    padding: 0 20px;
+}
+.pro_tabs li + li {
+    border-left: 1px solid #e1e1e1;
+}
+
+.pro_content p {
+    color: #666666;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.pro_title {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 17px;
+    margin-top: 30px;
+    text-transform: capitalize
+}
+
+/* new arrivals */
+.pro_cat_area {
+    display: block;
+    /* padding: 60px 0px; */
+    margin-bottom: 40px;
+    /* background-color: #f3f3f3; */
+  }
+  
+  .cat_thumb img {
+    width: 100%;
+    margin-top: 40px;
+  
+  }
+ 
+  .product_inner {
+    text-align: center;
+    padding-top: 20px;
+  }
+  
+  .product_inner h4 {
+    font-size: 18px;
+  }
+  
+  .pro_prize {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+  }
+  
+  .pro_prize li {
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0 5px;
+  }
+  
+  .pro_prize li.old_prize {
+    color: #888888;
+  }
+  
+  
+  .product_inner ul {
+    list-style-type: none;
+  }
+  
+  .good_sale {
+    padding: 140px 0px;
+    background-color: #f3f3f3;
+  }
+  
+  .prize_inner h2 {
+    color: #494949;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 45px;
+    margin-bottom: 30px;
+    padding-right: 10%;
+    
+  }
+  
+  .prize_inner h3 {
+    color: #494949;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 38px;
+  }
+  
+  .rm_btn {
+    background: #c43b68 none repeat scroll 0 0;
+    display: inline-block;
+    font-family: Poppins;
+    font-size: 15px;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 36px;
+    transition: 0.3s;
+  }
+  
+  .prize_thumb img {
+    width: 100%;
+  }
+  
+  /* start of hover content */
+  .hover_info {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+  }
+  
+  .hover_info ul {
+    list-style-type: none;
+  }
+  
+  .pro_action {
+    display: flex;
+    justify-content: center;
+    flex-flow: row;
+  }
+  
+  .pro_action li a {
+    background: #fefefe none repeat scroll 0 0;
+      display: inline-block;
+      height: 50px;
+      line-height: 60px;
+      text-align: center;
+      transition: all 0.4s ease 0s;
+      width: 50px;
+      margin-top: 20px;
+  }
+  
+  .pro_action li {
+    margin: 0px;
+    margin-bottom: 2px;
+  }
+  
+  .pro_action li a i {
+    columns: #313131;
+    font-size: 18px;
+    transition: all 0.4s ease 0s;
+  }
+  
+  .pro_action li a:hover {
+    background: #c43b68 none repeat scroll 0 0;
+  }
+  
+  .pro_action li a:hover i {
+    color: white;
+  }
+  
+  .pro_action li:nth-child(1) {
+    opacity: 0;
+    transition: opacity 300ms linear 0s;
+  }
+  .pro_action li:nth-child(2) {
+    opacity: 0;
+    transition: opacity 500ms linear 0s;
+  }
+  .pro_action li:nth-child(3) {
+    opacity: 0;
+    transition: opacity 700ms linear 0s;
+  }
+  
+  .cat:hover .pro_action li:nth-child(1) {
+    -webkit-animation: 300ms ease-in-out 0s normal none 1 running fadeInRight;
+            animation: 300ms ease-in-out 0s normal none 1 running fadeInRight;
+      opacity: 1;
+      transition: opacity 300ms linear 0s;
+  }
+  
+  .cat:hover .pro_action li:nth-child(2) {
+    -webkit-animation: 500ms ease-in-out 0s normal none 1 running fadeInRight;
+            animation: 500ms ease-in-out 0s normal none 1 running fadeInRight;
+      opacity: 1;
+      transition: opacity 500ms linear 0s;
+  }
+  
+  .cat:hover .pro_action li:nth-child(3) {
+    -webkit-animation: 700ms ease-in-out 0s normal none 1 running fadeInRight;
+            animation: 700ms ease-in-out 0s normal none 1 running fadeInRight;
+      opacity: 1;
+      transition: opacity 700ms linear 0s;
+  }
+  
+  .cat {
+    overflow: hidden;
+    position: relative;
+  }
+  
+  /* end of hover content */
+
+  .brand {
+    margin-top: 70px;
+  }
+  
+  .brand .inner_brand {
+    padding: 100px 0px;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .brand ul {
+    list-style-type: none;
+  }
+  
+  .brand ul li + li {
+    margin: 0 25px;
+  }
+
+.bid_btn a {
+  background: #c43b68;
+  color: white;
+  height: 30px;
+  width: 30%;
+  text-align: center;
+  display: block;
+  padding: 6px 3px;
+  font-size: 14px;
+}
+
+.bid span a:hover {
+  color: #c43b68;
+}
+
+.bargain_btn a {
+  display: inline-block;
+    min-width: 160px;
+    height: 55px;
+    color: #fff;
+    border: none;
+    border-radius: 0;
+    padding: 0 7px;
+    font-size: 18px;
+    line-height: 56px;
+    background-color: #c43b68;
+    font-weight: 400;
+    text-align: center;
+}
+
+.bargain_btn a:hover {
+  background-color: black;
+}
+
+
+
+
+
+
